@@ -2,8 +2,9 @@
 
 1. Deploy stack
 
-$ git clone https://github.com/gtc13/gdstack.git
-$ git stack deploy -c gdstach/grafa_loft.yml monitu
+git clone https://github.com/gtc13/gdstack.git
+
+git stack deploy -c gdstach/grafa_loft.yml monitu
 
 2. Add prometheus datasource with address http://prometheus:9090 to grafana
 3. Add these three lines to the bottom of /var/lib/docker/volumes/monitoring_prom-configs/_data/_prometheus.yml file, to scrape_configs: section:
