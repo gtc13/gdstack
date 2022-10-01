@@ -1,4 +1,4 @@
-version: "LoftKota v.0.1"
+version: "3.9"
 services:
   node-exporter:
     image: prom/node-exporter:v1.3.1
