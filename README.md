@@ -19,4 +19,4 @@ $ docker ps | grep prometheus | awk '{print $1}' | xargs docker kill -s SIGHUP
  
 5. Import this dashboard: https://grafana.com/grafana/dashboards/1860 to grafana
 
-
+Att! Docker swarm init must be ON
